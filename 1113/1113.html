@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜拳遊戲</title>
+    <link rel="stylesheet" href="1113.css">
+</head>
+
+<body>
+
+    <h1>猜拳遊戲</h1>
+
+    <div id="result"></div>
+
+    <div id="choices">
+        <button onclick="playGame('rock')">石頭</button>
+        <button onclick="playGame('paper')">布</button>
+        <button onclick="playGame('scissors')">剪刀</button>
+    </div>
+
+    <div>
+        <h3>你的選擇:</h3>
+        <img id="user-choice-img" src="" alt="User Choice">
+    </div>
+
+    <div>
+        <h3>電腦的選擇:</h3>
+        <img id="computer-choice-img" src="" alt="Computer Choice">
+    </div>
+
+    <script src="1113.js"></script>
+</body>
+
+</html>
