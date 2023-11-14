@@ -17,7 +17,7 @@ $(document).ready(function () {
     });
 
     $("#addBtn").click(function (e){
-        $("ol").append("<li>新增的</li><button>刪除</button>");
+        $("ol").append("<li>新增的</li>");
     });
 
     $("#removeBtn").click(function(){
